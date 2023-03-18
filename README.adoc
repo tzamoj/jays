@@ -1,0 +1,26 @@
+ifdev::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifdev::env-github[]
+:imagesdir: https://github.com/tzamoj/jays/docs/images
+endif::[]
+ifndev::env-github[]
+:imagesdir: ./docs/images
+endif::[]
+:toc:
+:tocplacement!:
+:source-hightlighter: prettify
+
+= Jays : Querying JSON-like Objects in Python
+Jays is a python librairy for manipulating JSON-like data efficiently.
+
+toc::[]
+
+== Getting Started
+
+== Contributing
+

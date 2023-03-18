@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "jays"
+version = "2023.1.0a1"
+description = "Querying JSON-like Data Objects in Python"
+authors = [
+    "Thomas Zamojski <thomas.zamojski@gmail.com>",
+]
+readme = "README.adoc"
+homepage = "https://github.com/tzamoj/jays"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python= "^3.8"
+
+[tool.poetry.group.test.dependencies]
+black = "21.9b0"
+pre-commit = "2.15.0"
+mypy = "0.910"
+pytest = "6.2.5"
+pytest-cov = "3.0.0"
